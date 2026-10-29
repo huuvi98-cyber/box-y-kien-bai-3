@@ -1,0 +1,6 @@
+{
+  "name": "Đồ họa tương tác: 3 Box ý kiến - Hành động vì lợi ích nhân dân",
+  "description": "Đồ họa tương tác thể hiện ý kiến của các Đại biểu Quốc hội và Lãnh đạo TPHCM về thông điệp 'Làm và làm đúng, làm quyết liệt, hiệu quả' vì lợi ích nhân dân.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

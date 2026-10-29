@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-serif: 'Merriweather', 'Lora', Georgia, Cambria, 'Times New Roman', Times, serif;
+    --font-headline: 'Lora', 'Merriweather', Georgia, serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF8F5;
+    color: #1C1917;
+  }
+
+  h1, h2, h3, h4, .font-serif-headline {
+    font-family: var(--font-headline);
+  }
+
+  .font-reading {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom newspaper/magazine paper texture accents */
+.bg-paper {
+  background-color: #FAF8F5;
+  background-image: radial-gradient(#E2D9CC 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+}
+
+.bg-paper-card {
+  background-color: #FFFFFF;
+}
+
+/* Smooth transition for active quote & tab state */
+.transition-editorial {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Custom scrollbars for clean presentation */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F2ECE1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4C5B0;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B09B80;
+}
+
+/* Print Stylesheet for clean printing/export */
+@media print {
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-page-break {
+    page-break-after: always;
+  }
+}
