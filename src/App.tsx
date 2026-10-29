@@ -24,7 +24,7 @@ export default function App() {
         : 'bg-[#FFFDF0] text-stone-900'
     }`}>
       
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+      <main className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
         
         {/* Podium 3-Box Standup Infographic matching reference style */}
         <PodiumBoxInfographic

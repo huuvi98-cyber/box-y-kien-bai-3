@@ -43,8 +43,8 @@ export const PodiumBoxInfographic: React.FC<PodiumBoxInfographicProps> = ({
   return (
     <div className="w-full space-y-8">
       
-      {/* 3 Standup Boxes Grid (Không bo góc: rounded-none) */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 items-stretch max-w-6xl mx-auto">
+      {/* 3 Standup Boxes Grid (Bề ngang tổng 1400px) */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 items-stretch max-w-[1400px] mx-auto">
         {OPINION_BOXES.map((box, index) => {
           const style = boxStyles[index % boxStyles.length];
 
