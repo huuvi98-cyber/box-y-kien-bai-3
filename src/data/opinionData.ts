@@ -25,6 +25,7 @@ export interface OpinionBox {
   badgeColor: string;
   accentColor: string;
   coreQuote: string;
+  previewText: string;
   paragraphs: Paragraph[];
   keyPillars: KeyPillar[];
   keyQuotes: string[];
@@ -52,6 +53,7 @@ export const OPINION_BOXES: OpinionBox[] = [
     badgeColor: "bg-amber-800 text-amber-50 border-amber-900",
     accentColor: "amber",
     coreQuote: "Thông điệp vỏn vẹn 9 chữ nhưng có tới 3 chữ 'làm'... chữ 'làm' thứ nhất là xắn tay vào việc... chữ 'làm' thứ hai gắn với 'đúng'... chữ 'làm' thứ ba đi kèm sự 'quyết liệt' tạo ra 'hiệu quả'.",
+    previewText: "Thông điệp “Làm và làm đúng, làm quyết liệt, hiệu quả”, hướng đến mục tiêu cao nhất “tất cả vì lợi ích của nhân dân” của Tổng Bí thư, Chủ tịch nước Tô Lâm không chỉ thể hiện một yêu cầu về phương pháp lãnh đạo, quản lý, mà sâu xa hơn là đặt ra thước đo mới đối với chất lượng hoạt động của cả hệ thống chính trị trong nhiệm kỳ mới: Chủ trương phải đi vào cuộc sống, quyết sách phải tạo ra thay đổi và mỗi thay đổi cuối cùng phải được người dân cảm nhận bằng những lợi ích cụ thể.",
     keyQuotes: [
       "Một thông điệp vỏn vẹn 9 chữ nhưng có tới 3 chữ 'làm'. Sự lặp lại ắt hẳn không thuần túy là điểm nhấn ngôn ngữ, mà là một mệnh lệnh chính trị, một thông điệp mang tính thời đại.",
       "Nghị quyết số 24-NQ/TW của Bộ Chính trị mang ý nghĩa như một 'tấm khiên' pháp lý và chính trị kiên cố, bảo vệ cán bộ dám nghĩ, dám làm vì lợi ích chung.",
@@ -129,6 +131,7 @@ export const OPINION_BOXES: OpinionBox[] = [
     badgeColor: "bg-blue-900 text-blue-50 border-blue-950",
     accentColor: "blue",
     coreQuote: "Thành phố không chờ Luật Phát triển đô thị có hiệu lực mới bắt tay vào rà soát, mà đã huy động toàn bộ máy chạy song song, chuẩn bị sẵn những khung cơ chế... xóa đi 'độ trễ' của chính sách.",
+    previewText: "Tinh thần “làm và làm đúng, làm quyết liệt, hiệu quả” đã trở thành mệnh lệnh hành động, phong cách chỉ đạo, điều hành của UBND thành phố. Đó cũng là sự chuyển đổi từ trạng thái thụ động sang tâm thế đi trước đón đầu, chuẩn bị sẵn sàng các bệ phóng thực thi. Trong bối cảnh thành phố đang tăng tốc thực hiện các giải pháp tạo sự chuyển biến mạnh mẽ trong đổi mới mô hình phát triển, việc chủ động thể chế hóa luật mang ý nghĩa sống còn. Đây là bước đi mang tính nền tảng để TPHCM hiện thực hóa các chỉ tiêu khát vọng mà Nghị quyết Đại hội đại biểu Đảng bộ TPHCM lần thứ I (nhiệm kỳ 2025-2030) đã đề ra.",
     keyQuotes: [
       "Thành phố không chờ Luật Phát triển đô thị có hiệu lực mới bắt tay vào rà soát, mà đã huy động toàn bộ máy chạy song song... xóa đi 'độ trễ' của chính sách.",
       "Việc thành phố quyết tâm áp dụng hệ thống KPI để đo lường cán bộ là chìa khóa xóa bỏ tâm lý đùn đẩy, sợ trách nhiệm.",
@@ -206,6 +209,7 @@ export const OPINION_BOXES: OpinionBox[] = [
     badgeColor: "bg-rose-900 text-rose-50 border-rose-950",
     accentColor: "rose",
     coreQuote: "Mỗi cơ quan, mỗi cán bộ cần tự hỏi: việc mình làm đã giúp người dân được gì, còn điều gì khiến người dân phải chờ đợi?",
+    previewText: "Thông điệp “Làm và làm đúng, làm quyết liệt, hiệu quả” của Tổng Bí thư, Chủ tịch nước Tô Lâm có thể xem là kim chỉ nam hành động của nhiệm kỳ 2026-2031. Đặt trong mục tiêu “tất cả vì lợi ích của nhân dân”, thông điệp ấy xác lập một yêu cầu xuyên suốt: mỗi chủ trương phải được cụ thể hóa bằng hành động, mỗi hành động phải tạo ra giá trị thiết thực cho người dân. Đây cũng là đòi hỏi về trách nhiệm của bộ máy trước những kỳ vọng phát triển của đất nước.",
     keyQuotes: [
       "Mỗi cơ quan, mỗi cán bộ cần tự hỏi: việc mình làm đã giúp người dân được gì, còn điều gì khiến người dân phải chờ đợi?",
       "Một hồ sơ bớt phải đi lại, một vướng mắc được xử lý đúng hạn cũng là biểu hiện cụ thể của tinh thần phục vụ.",

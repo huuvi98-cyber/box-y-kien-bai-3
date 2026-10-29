@@ -52,7 +52,7 @@ export const PodiumBoxInfographic: React.FC<PodiumBoxInfographicProps> = ({
             <div
               key={box.id}
               onClick={() => setSelectedBoxModal(box)}
-              className={`group cursor-pointer rounded-t-2xl rounded-b-none p-6 sm:p-7 flex flex-col justify-between min-h-[480px] transition-all duration-300 hover:-translate-y-1.5 ${style.bgGradient} ${style.shadow} border-t-4 ${style.accentBorder} relative`}
+              className={`group cursor-pointer rounded-t-2xl rounded-b-none p-6 sm:p-7 flex flex-col justify-between min-h-[560px] sm:min-h-[580px] transition-all duration-300 hover:-translate-y-1.5 ${style.bgGradient} ${style.shadow} border-t-4 ${style.accentBorder} relative`}
             >
               {/* Top Section: Portrait & Speaker Info */}
               <div className="space-y-4">
@@ -79,15 +79,15 @@ export const PodiumBoxInfographic: React.FC<PodiumBoxInfographicProps> = ({
 
                 {/* Headline (Tít to hơn) */}
                 <div className="pt-2 border-t border-white/25">
-                  <h4 className="text-2xl sm:text-3xl font-serif font-black leading-tight text-white">
+                  <h4 className="text-2xl sm:text-3xl font-serif font-black leading-tight text-white break-words [word-break:normal]">
                     {box.headline}
                   </h4>
                 </div>
 
-                {/* Expanded Preview Text */}
+                {/* Expanded Preview Text (Hiển thị trọn vẹn câu và chữ, không ngắt từ hay câu giữa chừng) */}
                 <div className="pt-1">
-                  <p className="text-xs sm:text-sm font-reading text-white/95 leading-relaxed line-clamp-6">
-                    {box.paragraphs[0]?.text} {box.paragraphs[1]?.text}
+                  <p className="text-xs sm:text-sm font-reading text-white/95 leading-relaxed break-words [word-break:normal]">
+                    {box.previewText}
                   </p>
                 </div>
 
